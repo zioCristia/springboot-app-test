@@ -1,23 +1,22 @@
-package com.technicalTest.springbootApp.entity;
+package com.technicalTest.springbootApp.entities;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 @Entity
 @Getter
 @Setter
-@NoArgsConstructor
+@NoArgsConstructor @AllArgsConstructor
+@Builder
 public class UserInformation {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
-    private Integer id;
+    private Long id;
     private String userName;
-    private Date birthDate;
+    private LocalDate birthDate;
     private String residenceCountry;
 }
