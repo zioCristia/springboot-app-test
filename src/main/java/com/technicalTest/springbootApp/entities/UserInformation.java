@@ -19,4 +19,6 @@ public class UserInformation {
     private String userName;
     private LocalDate birthDate;
     private String residenceCountry;
+    private String phoneNumber;
+    private Gender gender;
 }
