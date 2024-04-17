@@ -77,8 +77,8 @@ Body request example:
 }
 ```
 
-## Lambok
-In order to avoid boilerplate code I used ```Lambok``` library to create getters and setters, as well as no arguments constructors and the builder.
+## Lombok
+In order to avoid boilerplate code I used ```Lombok``` library to create getters and setters, as well as no arguments constructors and the builder.
 
 ## Tests
 In the code there are some unit test as well as integration test.
