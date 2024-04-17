@@ -77,10 +77,10 @@ Body request example:
 }
 ```
 
-## Lambrok
-In order to avoid boilerplate code I used ```Lambrok``` library to create getters and setters, as well as no arguments constructors and the builder.
+## Lambok
+In order to avoid boilerplate code I used ```Lambok``` library to create getters and setters, as well as no arguments constructors and the builder.
 
 ## Tests
 In the code there are some unit test as well as integration test.
-Unfortunately, due to lack of time, not all tests are working. Especially the integration ones need debag to make them work. 
+Unfortunately, due to lack of time, not all tests are working. Especially the integration ones need debug to make them work. 
 Nevertheless, they were delivered to give an idea of how they should be done.
